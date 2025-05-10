@@ -1,0 +1,599 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Admin User",
+      "email": "admin@puremart.com"
+    },
+    {
+      "id": "2",
+      "username": "customer",
+      "password": "customer123",
+      "role": "customer",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "cff9",
+      "username": "Shannu123",
+      "password": "Shannu123",
+      "name": "Shannu",
+      "email": "2300030947@kluniversity.in",
+      "role": "customer"
+    },
+    {
+      "id": "5ec7",
+      "username": "Kishore",
+      "password": "Kishore@12",
+      "name": "Kishore",
+      "email": "Kishore@gmail.com",
+      "role": "customer"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Fresh Apples",
+      "category": "Fruits",
+      "price": 2.99,
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6",
+      "description": "Fresh and juicy apples picked from organic farms.",
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": "2",
+      "name": "Organic Bananas",
+      "category": "Fruits",
+      "price": 1.99,
+      "image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224",
+      "description": "Organic bananas rich in potassium and other nutrients.",
+      "inStock": true,
+      "discount": 10
+    },
+    {
+      "id": "3",
+      "name": "Fresh Milk",
+      "category": "Dairy",
+      "price": 3.49,
+      "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b",
+      "description": "Farm fresh milk, pasteurized and rich in calcium.",
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": "4",
+      "name": "Whole Wheat Bread",
+      "category": "Bakery",
+      "price": 2.49,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+      "description": "Freshly baked whole wheat bread, perfect for sandwiches.",
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": "5",
+      "name": "Organic Eggs",
+      "category": "Dairy",
+      "price": 4.99,
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f",
+      "description": "Free-range organic eggs from happy chickens.",
+      "inStock": true,
+      "discount": 5
+    },
+    {
+      "id": "6",
+      "name": "Fresh Spinach",
+      "category": "Vegetables",
+      "price": 1.99,
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb",
+      "description": "Fresh and crisp spinach leaves, perfect for salads and cooking.",
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": "7",
+      "name": "Chicken Breast",
+      "category": "Meat",
+      "price": 6.99,
+      "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791",
+      "description": "Boneless, skinless chicken breast, perfect for grilling or baking.",
+      "inStock": true,
+      "discount": 15
+    },
+    {
+      "id": "8",
+      "name": "Atlantic Salmon",
+      "category": "Seafood",
+      "price": 9.99,
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2",
+      "description": "Fresh Atlantic salmon fillets, rich in omega-3 fatty acids.",
+      "inStock": true,
+      "discount": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Fruits",
+      "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf"
+    },
+    {
+      "id": "2",
+      "name": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c"
+    },
+    {
+      "id": "3",
+      "name": "Dairy",
+      "image": "https://images.unsplash.com/photo-1628088062854-d1870b4553da"
+    },
+    {
+      "id": "4",
+      "name": "Bakery",
+      "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec"
+    },
+    {
+      "id": "5",
+      "name": "Meat",
+      "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f"
+    },
+    {
+      "id": "6",
+      "name": "Seafood",
+      "image": "/seafood.jpeg"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "c8cb",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 15.9315,
+      "shippingAddress": {
+        "firstName": "Duggaraju",
+        "lastName": "Shanmukha Sarma",
+        "address": "UmaShankarNagar 4th line, kanuru, vijayawada",
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "zipCode": "520007",
+        "phone": "9676293839"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T09:15:11.758Z"
+    },
+    {
+      "id": "99b4",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 15.9315,
+      "shippingAddress": {
+        "firstName": "Duggaraju",
+        "lastName": "Shanmukha Sarma",
+        "address": "UmaShankarNagar 4th line, kanuru, vijayawada",
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "zipCode": "520007",
+        "phone": "9676293839"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T09:15:11.758Z"
+    },
+    {
+      "id": "464053",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 18.9215,
+      "shippingAddress": {
+        "firstName": "Duggaraju",
+        "lastName": "Shanmukha Sarma",
+        "address": "UmaShankarNagar 4th line, kanuru, vijayawada",
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "zipCode": "520007",
+        "phone": "9676293839"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T09:36:21.690Z"
+    },
+    {
+      "id": "464053",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 18.9215,
+      "shippingAddress": {
+        "firstName": "Duggaraju",
+        "lastName": "Shanmukha Sarma",
+        "address": "UmaShankarNagar 4th line, kanuru, vijayawada",
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "zipCode": "520007",
+        "phone": "9676293839"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T09:36:21.690Z"
+    },
+    {
+      "id": "464053",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 18.9215,
+      "shippingAddress": {
+        "firstName": "Duggaraju",
+        "lastName": "Shanmukha Sarma",
+        "address": "UmaShankarNagar 4th line, kanuru, vijayawada",
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "zipCode": "520007",
+        "phone": "9676293839"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T09:36:21.690Z"
+    },
+    {
+      "id": "464053",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 18.9215,
+      "shippingAddress": {
+        "firstName": "Duggaraju",
+        "lastName": "Shanmukha Sarma",
+        "address": "UmaShankarNagar 4th line, kanuru, vijayawada",
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "zipCode": "520007",
+        "phone": "9676293839"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T09:36:21.690Z"
+    },
+    {
+      "id": "464053",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 18.9215,
+      "shippingAddress": {
+        "firstName": "Duggaraju",
+        "lastName": "Shanmukha Sarma",
+        "address": "UmaShankarNagar 4th line, kanuru, vijayawada",
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "zipCode": "520007",
+        "phone": "9676293839"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T09:36:21.690Z"
+    },
+    {
+      "id": "145861",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Fresh Milk",
+          "price": 3.49,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 22.411500000000004,
+      "shippingAddress": {
+        "firstName": "David Paul",
+        "lastName": "Kambhampati",
+        "address": "sdfgdfghfghj",
+        "city": "VIJ",
+        "state": "ap",
+        "zipCode": "520007",
+        "phone": "9949377427"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T10:20:19.310Z"
+    },
+    {
+      "id": "145861",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Fresh Milk",
+          "price": 3.49,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 22.411500000000004,
+      "shippingAddress": {
+        "firstName": "David Paul",
+        "lastName": "Kambhampati",
+        "address": "sdfgdfghfghj",
+        "city": "VIJ",
+        "state": "ap",
+        "zipCode": "520007",
+        "phone": "9949377427"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T10:20:19.310Z"
+    },
+    {
+      "id": "145861",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Fresh Milk",
+          "price": 3.49,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 22.411500000000004,
+      "shippingAddress": {
+        "firstName": "David Paul",
+        "lastName": "Kambhampati",
+        "address": "sdfgdfghfghj",
+        "city": "VIJ",
+        "state": "ap",
+        "zipCode": "520007",
+        "phone": "9949377427"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T10:20:19.310Z"
+    },
+    {
+      "id": "643670",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "8",
+          "name": "Atlantic Salmon",
+          "price": 9.99,
+          "quantity": 4
+        },
+        {
+          "productId": "7",
+          "name": "Chicken Breast",
+          "price": 5.9415000000000004,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Fresh Milk",
+          "price": 3.49,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 52.3815,
+      "shippingAddress": {
+        "firstName": "aaron",
+        "lastName": "Joshua",
+        "address": "sdfgdfghfghj",
+        "city": "VIJ",
+        "state": "ap",
+        "zipCode": "520007",
+        "phone": "9949377427"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T10:36:16.582Z"
+    },
+    {
+      "id": "496485",
+      "userId": "guest",
+      "email": "davidpaulk29@gmail.com",
+      "items": [
+        {
+          "productId": "1",
+          "name": "Fresh Apples",
+          "price": 2.99,
+          "quantity": 8
+        }
+      ],
+      "totalAmount": 23.92,
+      "shippingAddress": {
+        "firstName": "Josh",
+        "lastName": "Kambhampati",
+        "address": "sdfgdfghfghj",
+        "city": "VIJ",
+        "state": "ap",
+        "zipCode": "520007",
+        "phone": "9949377427"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "orderDate": "2025-05-10T10:44:22.081Z"
+    }
+  ],
+  "notifications": []
+}
